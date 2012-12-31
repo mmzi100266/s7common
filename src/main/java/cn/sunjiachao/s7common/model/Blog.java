@@ -11,6 +11,7 @@ public class Blog implements Serializable {
     private int blogId;
     private String title;
     private String body;
+    private String shortBody;
     private Date createTime;
     private Date updateTime;
     private int createUser;
@@ -25,6 +26,14 @@ public class Blog implements Serializable {
 
     public String getTitle() {
         return title;
+    }
+
+    public String getShortBody() {
+        return shortBody;
+    }
+
+    public void setShortBody(String shortBody) {
+        this.shortBody = shortBody;
     }
 
     public void setTitle(String title) {
