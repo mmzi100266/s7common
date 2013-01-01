@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * sql: select b.blogId,b.title,b.body,b.createTime,u.loginName from s7_blog as b inner join s7_user as u where b.createUser = 1
  */
-public class BlogDto {
+public class BlogShortBodyDto {
 
     private int blogId;
     private String title;
