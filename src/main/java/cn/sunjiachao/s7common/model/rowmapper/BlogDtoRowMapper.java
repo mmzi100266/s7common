@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.RowMapper;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class BlogDtoRowMapper<BlogDto> implements RowMapper<T> {
+public class BlogDtoRowMapper implements RowMapper<BlogDto> {
     @Override
     public BlogDto mapRow(ResultSet resultSet, int rowNum) throws SQLException {
         BlogDto bd = new BlogDto();
