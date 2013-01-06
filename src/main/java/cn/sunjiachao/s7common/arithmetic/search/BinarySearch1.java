@@ -1,7 +1,9 @@
 package cn.sunjiachao.s7common.arithmetic.search;
 
 /**
- * 二分查找算法
+ * 二分查找算法 <br/>
+ * 除了对于长度非常小的数组来说，二分查找的性能是非常优秀的。
+ * 线性查找时间 N/2 , 二分查找时间
  * 
  * @author jiachao.sun
  * 
