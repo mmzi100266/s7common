@@ -14,7 +14,6 @@ public class BinarySearch1Test {
 		BinarySearch1 app = new BinarySearch1(array);
 		int result = app.search(34);
 		assertEquals(3, result);
-//		assertEquals(4, result);
 	}
 
 }
