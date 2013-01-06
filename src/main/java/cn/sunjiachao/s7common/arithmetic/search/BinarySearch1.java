@@ -2,18 +2,27 @@ package cn.sunjiachao.s7common.arithmetic.search;
 
 /**
  * 二分查找算法
+ * 
  * @author jiachao.sun
- *
+ * 
  */
 public class BinarySearch1 {
 
-	public static int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	public int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+	public BinarySearch1(int[] array) {
+		this.array = array;
+	}
+
+	public BinarySearch1() {
+
+	}
 
 	public int search(int value) {
-		//定义初始状态的边界
+		// 定义初始状态的边界
 		int start = 0;
 		int end = array.length - 1;
-		
+
 		// 开始查找
 		while (true) {
 			int current = (start + end) / 2;
@@ -31,7 +40,6 @@ public class BinarySearch1 {
 				end = current - 1;
 
 		}
-
 	}
 
 	public static void main(String[] args) {
