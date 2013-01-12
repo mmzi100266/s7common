@@ -7,49 +7,49 @@ import java.util.Date;
  */
 public class Comment {
 
-    private int cid;
-    private String title;
-    private String body;
-    private Date createTime;
-    private int belongTo;
+	private int cid;
+	private String guestName;
+	private String body;
+	private Date createTime;
+	private int belongTo;
 
-    public int getCid() {
-        return cid;
-    }
+	public int getCid() {
+		return cid;
+	}
 
-    public void setCid(int cid) {
-        this.cid = cid;
-    }
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
 
-    public String getTitle() {
-        return title;
-    }
+	public String getBody() {
+		return body;
+	}
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+	public void setBody(String body) {
+		this.body = body;
+	}
 
-    public String getBody() {
-        return body;
-    }
+	public Date getCreateTime() {
+		return createTime;
+	}
 
-    public void setBody(String body) {
-        this.body = body;
-    }
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
 
-    public Date getCreateTime() {
-        return createTime;
-    }
+	public int getBelongTo() {
+		return belongTo;
+	}
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
-    }
+	public void setBelongTo(int belongTo) {
+		this.belongTo = belongTo;
+	}
 
-    public int getBelongTo() {
-        return belongTo;
-    }
+	public String getGuestName() {
+		return guestName;
+	}
 
-    public void setBelongTo(int belongTo) {
-        this.belongTo = belongTo;
-    }
+	public void setGuestName(String guestName) {
+		this.guestName = guestName;
+	}
 }

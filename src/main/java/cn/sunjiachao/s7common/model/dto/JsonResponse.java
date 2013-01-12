@@ -4,7 +4,8 @@ import java.io.Serializable;
 
 public class JsonResponse implements Serializable {
 
-    private String message;
+	private static final long serialVersionUID = -7908958308779498104L;
+	private String message;
     private int code;
 
     public String getMessage() {
